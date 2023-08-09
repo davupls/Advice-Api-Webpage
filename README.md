@@ -24,6 +24,9 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
+![Screenshot 2023-08-08 at 22-38-57 Frontend Mentor Advice generator app](https://github.com/davupls/Advice-Api-Webpage/assets/47851457/32a7c481-4dff-47ac-a91e-4ff48ddfe2ed)
+
+
 
 
 ### Links
