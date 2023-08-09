@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+
+    /* primary color */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* neutral color */
+    --grayish-blue: hsl(217, 19%, 38%);
+    --grayish-blue-dark: hsl(217, 19%, 24%);
+    --blue-dark: hsl(218, 23%, 16%);
+
+}
+
+body {
+    background-color: var(--grayish-blue-dark);
+    font-size: 28px;
+}
+
+.card {
+    background-color: var(--grayish-blue);
+    border-radius: 10px;
+}
+
+p {
+    color: var(--neon-green);
+}
+
+.text {
+    color: var(--light-cyan);
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+}
+
+.divider-container {
+    display: flex;
+    justify-content: space-between;   
+}
+
+hr {
+    color: rgb(231, 231, 231);
+    height: 0.5px;
+    margin: 20px 0;
+    width: 45%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 0 15px;
+        font-size: 24px;
+    }
+
+    .card {
+        margin-top: 130px;
+        padding: 20px 12px;
+        margin-bottom: 200px;
+    }
+
+    #advice {
+        font-size: 16px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+
+    .btn {
+        background-color: var(--neon-green);
+        border: 0px;
+        border-radius: 100px;
+        padding: 20px;
+        position: absolute;
+    }
+
+    .btn:hover {
+        outline-color: hsla(150, 100%, 66%, 0.285);
+    }
+
+    
+}
+
+@media screen and (min-width: 501px) {
+    main {
+        margin: 150px auto 250px;
+        max-width: 500px;
+        width: 50%;
+    }
+
+    #advice {
+        text-align: center;
+    }
+
+    .btn-container {
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        background-color: var(--neon-green);
+        border: 0px;
+        border-radius: 100px;
+        padding: 20px;
+        position: absolute;
+        top: 0px;
+    }
+
+    .btn:hover {
+        outline-color: hsla(150, 100%, 66%, 0.285);
+    }
+}
